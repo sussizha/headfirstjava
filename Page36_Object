@@ -1,0 +1,21 @@
+class Dog{
+	int size;
+	String Breed;
+	String name;
+	void bark(){
+		System.out.print("Ruff!Ruff!");
+		System.out.println("Breed:"+Breed);
+		System.out.println("Name:"+name);
+		System.out.println("Size:"+size);
+	}
+}
+public class DogTestDrive {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog d= new Dog();
+		d.size=40;
+		d.Breed="Sussie";
+		d.name="Button";
+		d.bark();
+	}
+}
